@@ -1,0 +1,291 @@
+[
+  {
+  "Manaus": {
+    "toll": 50,
+    "neighbors": {
+      "Boa Vista": 785,
+      "Porto Velho": 901,
+      "Rio Branco": 1445,
+      "Belém": 5298,
+      "Cuiabá": 2357
+      }
+    }
+  },
+  {
+  "Boa Vista": {
+    "toll": 20,
+    "neighbors": {
+      "Manaus": 785,
+      "Belém": 6083
+      }
+    }
+  },
+  {
+  "Porto Velho": {
+      "toll": 30,
+      "neighbors": {
+        "Manaus": 901,
+        "Rio Branco": 544,
+        "Cuiabá": 1456
+      }
+    }
+  },
+  {
+  "Rio Branco": {
+      "toll": 20,
+      "neighbors": {
+        "Porto Velho": 544,
+        "Manaus": 1445
+      }
+    }
+  },
+  {
+  "Cuiabá": {
+      "toll": 60,
+      "neighbors": {
+        "Porto Velho": 1456,
+        "Manaus": 2357,
+        "Belém": 2941,
+        "Campo Grande": 694,
+        "Goiânia": 934,
+        "Palmas": 1784
+      }
+    }
+  },
+  {
+  "Campo Grande": {
+      "toll": 50,
+      "neighbors": {
+        "Cuiabá": 694,
+        "Goiânia": 935,
+        "Belo Horizonte": 1453,
+        "São Paulo": 1014,
+        "Curitiba": 991
+      }
+    }
+  },
+  {
+  "Goiânia": {
+      "toll": 60,
+      "neighbors": {
+        "Cuiabá": 934,
+        "Brasília": 209,
+        "Campo Grande": 935,
+        "Belo Horizonte": 906,
+        "Salvador": 1643,
+        "Palmas": 874
+      }
+    }
+  },
+  {
+  "Brasília": {
+      "toll": 20,
+      "neighbors": {
+        "Goiânia": 209,
+        "Belo Horizonte": 716
+      }
+    }
+  },
+  {
+  "São Luis": {
+      "toll": 30,
+      "neighbors": {
+        "Teresina": 446,
+        "Belém": 806,
+        "Palmas": 1386
+      }
+    }
+  },
+  {
+  "Teresina": {
+      "toll": 50,
+      "neighbors": {
+        "São Luis": 446,
+        "Fortaleza": 634,
+        "Recife": 1137,
+        "Salvador": 1163,
+        "Palmas": 1401
+      }
+    }
+  },
+  {
+  "Belém": {
+      "toll": 50,
+      "neighbors": {
+        "São Luis": 806,
+        "Palmas": 1283,
+        "Cuiabá": 2941,
+        "Manaus": 5298,
+        "Boa Vista": 6083
+      }
+    }
+  },
+  {
+  "Macapá": {
+      "toll": 0,
+      "neighbors": {
+      }
+    }
+  },
+  {
+  "Palmas": {
+      "toll": 60,
+      "neighbors": {
+        "Belém": 1283,
+        "Cuiabá": 1784,
+        "Goiânia": 874,
+        "Salvador": 1454,
+        "Teresina": 1401,
+        "São Luis": 1386
+      }
+    }
+  },
+  {
+  "Fortaleza": {
+      "toll": 40,
+      "neighbors": {
+        "Teresina": 634,
+        "Natal": 537,
+        "João Pessoa": 688,
+        "Recife": 800
+      }
+    }
+  },
+  {
+  "Natal": {
+      "toll": 20,
+      "neighbors": {
+        "Fortaleza": 537,
+        "João Pessoa": 185
+      }
+    }
+  },
+  {
+  "João Pessoa": {
+      "toll": 30,
+      "neighbors": {
+        "Recife": 120,
+        "Natal": 185,
+        "Fortaleza": 688
+      }
+    }
+  },
+  {
+  "Recife": {
+      "toll": 50,
+      "neighbors": {
+        "João Pessoa": 120,
+        "Teresina": 1137,
+        "Fortaleza": 800,
+        "Maceió": 285,
+        "Salvador": 839
+      }
+    }
+  },
+  {
+  "Maceió": {
+      "toll": 30,
+      "neighbors": {
+        "Recife": 285,
+        "Aracajú": 294,
+        "Salvador": 632
+      }
+    }
+  },
+  {
+  "Aracajú": {
+      "toll": 20,
+      "neighbors": {
+        "Maceió": 294,
+        "Salvador": 356
+      }
+    }
+  },
+  {
+  "Salvador": {
+      "toll": 80,
+      "neighbors": {
+        "Aracajú": 356,
+        "Recife": 839,
+        "Maceió": 632,
+        "Teresina": 1163,
+        "Palmas": 1454,
+        "Goiânia": 1643,
+        "Belo Horizonte": 1372,
+        "Vitória": 1202
+      }
+    }
+  },
+  {
+  "Belo Horizonte": {
+      "toll": 70,
+      "neighbors": {
+        "São Paulo": 586,
+        "Rio de Janeiro": 434,
+        "Brasília": 716,
+        "Vitória": 524,
+        "Salvador": 1372,
+        "Goiânia": 906,
+        "Campo Grande": 1453
+      }
+    }
+  },
+  {
+  "São Paulo": {
+      "toll": 40,
+      "neighbors": {
+        "Rio de Janeiro": 429,
+        "Campo Grande": 1014,
+        "Belo Horizonte": 586,
+        "Curitiba": 408
+      }
+    }
+  },
+  {
+  "Rio de Janeiro": {
+      "toll": 30,
+      "neighbors": {
+        "São Paulo": 429,
+        "Belo Horizonte": 434,
+        "Vitória": 521
+      }
+    }
+  },
+  {
+  "Vitória": {
+      "toll": 30,
+      "neighbors": {
+        "Rio de Janeiro": 521,
+        "Belo Horizonte": 524,
+        "Salvador": 1202
+      }
+    }
+  },
+  {
+  "Curitiba": {
+      "toll": 30,
+      "neighbors": {
+        "São Paulo": 408,
+        "Florianópolis": 300,
+        "Campo Grande": 991
+      }
+    }
+  },
+  {
+  "Florianópolis": {
+      "toll": 20,
+      "neighbors": {
+        "Curitiba": 300,
+        "Porto Alegre": 476
+      }
+    }
+  },
+  {
+  "Porto Alegre": {
+    "toll": 10,
+    "neighbors": {
+      "Florianópolis": 476
+      }
+    }
+  }
+]

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caminho Mais Barato</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Caminho Mais Barato</h1>
+        <form id="caminho-form">
+            <label for="origem">Capital de Origem:</label>
+            <input list="capitais" id="origem" name="origem" required>
+            <br>
+            <label for="destino">Capital de Destino:</label>
+            <input list="capitais" id="destino" name="destino" required>
+            <br>
+            <label for="preco-combustivel">Preço do Combustível:</label>
+            <input type="number" id="preco-combustivel" name="preco-combustivel" required>
+            <br>
+            <label for="autonomia">Autonomia em Km/L:</label>
+            <input type="number" id="autonomia" name="autonomia" required>
+            <br>
+            <button type="submit">Encontrar Caminho Mais Barato</button>
+        </form>
+        <datalist id="capitais">
+            <option value="Manaus">
+            <option value="Boa Vista">
+            <option value="Porto Velho">
+            <option value="Rio Branco">
+            <option value="Belém">
+            <option value="Cuiabá">
+            <option value="Campo Grande">
+            <option value="Goiânia">
+            <option value="Brasília">
+            <option value="São Luis">
+            <option value="Teresina">
+            <option value="Macapá">
+            <option value="Palmas">
+            <option value="Salvador">
+            <option value="Recife">
+            <option value="Fortaleza">
+            <option value="Natal">
+            <option value="João Pessoa">
+            <option value="Maceió">
+            <option value="Aracajú">
+            <option value="Vitória">
+            <option value="Rio de Janeiro">
+            <option value="São Paulo">
+            <option value="Curitiba">
+            <option value="Florianópolis">
+            <option value="Porto Alegre">
+        </datalist>
+        <div id="resultado"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
