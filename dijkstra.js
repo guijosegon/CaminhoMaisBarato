@@ -34,7 +34,7 @@ function dijkstra(grafo, inicio, fim, precoCombustivel, autonomia) {
             if (!verticeDestino) continue;
 
             const custoCombustivel = (distancia / autonomia) * precoCombustivel;
-            const custoPedagio = verticeAtual.toll + verticeDestino.toll;
+            const custoPedagio = verticeDestino.toll;
             const novoCusto = custoAtual + custoCombustivel + custoPedagio;
 
             if (novoCusto < custos.get(destino)) {

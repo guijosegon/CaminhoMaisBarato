@@ -3,8 +3,8 @@ document.getElementById('caminho-form').addEventListener('submit', async (event)
 
     const origem = document.getElementById('origem').value;
     const destino = document.getElementById('destino').value;
-    const precoCombustivel = parseFloat(document.getElementById('preco-combustivel').value);
-    const autonomia = parseFloat(document.getElementById('autonomia').value);
+    const precoCombustivel = parseFloat(document.getElementById('preco-combustivel').value.replace(',', '.'));
+    const autonomia = parseFloat(document.getElementById('autonomia').value.replace(',', '.'));
 
     const response = await fetch('/caminho-mais-barato', {
         method: 'POST',

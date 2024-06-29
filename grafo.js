@@ -1,6 +1,5 @@
 const fs = require('fs');
 
-// Função para ler o arquivo capitais.json
 function lerDados() {
     const dados = fs.readFileSync('capitais.json', 'utf8');
     return JSON.parse(dados);
@@ -39,7 +38,6 @@ class Grafo {
     }
 }
 
-// Função para fazer o seed dos dados no grafo
 function seedGrafo(capitais) {
     const grafo = new Grafo();
 
