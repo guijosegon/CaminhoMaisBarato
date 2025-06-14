@@ -1,5 +1,7 @@
 # Caminho Mais Barato
 
+![Tela Inicial](https://raw.githubusercontent.com/guijosegon/project-assets/blob/master/CaminhoMaisCurto/painel.png)
+
 ## Descrição
 
 A aplicação "Caminho Mais Barato" é um projeto desenvolvido para encontrar o caminho mais barato entre duas capitais brasileiras. A aplicação utiliza um grafo representado por uma lista de adjacências, onde cada capital é um vértice e cada rota entre capitais é uma aresta. O custo total da viagem é calculado com base no preço do combustível, autonomia do veículo em km/litro e pedágios das capitais intermediárias.
