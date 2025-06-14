@@ -1,6 +1,6 @@
 # Caminho Mais Barato
 
-![Tela Inicial](https://raw.githubusercontent.com/guijosegon/project-assets/blob/master/CaminhoMaisCurto/painel.png)
+![Tela Inicial](https://raw.githubusercontent.com/guijosegon/project-assets/master/CaminhoMaisCurto/painel.png)
 
 ## Descrição
 
